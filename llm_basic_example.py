@@ -6,7 +6,7 @@ from dotenv import load_dotenv, find_dotenv
 load_dotenv(find_dotenv())
 
 
-llm = OpenAI(model="text-davinci-003", temperature=0.9)
+llm = OpenAI(model="text-davinci-003", temperature=1.5)
 prompt = PromptTemplate(
     input_variables=["product"],
     template="What is a good name for a company that makes {product}?",
