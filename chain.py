@@ -15,4 +15,4 @@ prompt = PromptTemplate(
 chain = LLMChain(llm=llm, prompt=prompt)
 
 # Run the chain only specifying the input variable.
-print(chain.run("eco-friendly water bottles"))
+print(chain.run("machine learning consulting solutions"))
